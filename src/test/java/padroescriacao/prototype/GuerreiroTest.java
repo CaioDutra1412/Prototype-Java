@@ -16,7 +16,7 @@ class GuerreiroTest {
         guerreiroClone.getSkills().setForca(7);
         guerreiroClone.getSkills().setAgilidade(5);
 
-        assertEquals("Guerreiro{nome='Orc', skills=Skills{inteligencia= 6, forca= 10, agilidade= 5}}", guerreiro.toString());
-        assertEquals("Guerreiro{nome='Elfo Sangrento', skills=Skills{inteligencia= 8, forca= 7, agilidade= 5}}", guerreiroClone.toString());
+        assertEquals("Guerreiro{nome='Orc', skills=Skills{Inteligencia= 6, Forca= 10, Agilidade= 5}}", guerreiro.toString());
+        assertEquals("Guerreiro{nome='Elfo Sangrento', skills=Skills{Inteligencia= 8, Forca= 7, Agilidade= 5}}", guerreiroClone.toString());
     }
 }
