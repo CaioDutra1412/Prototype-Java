@@ -44,7 +44,7 @@ public class Skills implements Cloneable {
 
     @Override
     public String toString() {
-        return "Skills{" + "Inteligencia='" + inteligencia + '\'' + ", Força=" + forca + ", Agilidade=" + agilidade + "}";
+        return "Skills{" + "Inteligencia='" + inteligencia + '\'' + ", Forca=" + forca + ", Agilidade=" + agilidade + "}";
     }
 
 }
